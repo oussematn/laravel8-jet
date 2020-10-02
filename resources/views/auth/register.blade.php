@@ -41,9 +41,10 @@
                     {{ __('Register') }}
                 </x-jet-button>
                 <a href="/fb/login">
-                    <x-jet-button class="ml-4 bg-blue-500 hover:bg-blue-400">
+                    <div
+                        class="bg-blue-500 hover:bg-blue-400 text-white px-4 py-2 border-transparent rounded-md text-xs uppercase focus:border-blue-900 focus:shadow-outline-blue disabled:opacity-25 transition ease-in-out duration-150 ml-4">
                         Use Facebook
-                    </x-jet-button>
+                    </div>
                 </a>
             </div>
         </form>
